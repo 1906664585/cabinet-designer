@@ -1,0 +1,25 @@
+{
+  "name": "cabinet-designer",
+  "version": "0.0.1",
+  "description": "A parametric cabinet design system for custom wardrobe furniture",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write \"**/*.{ts,tsx,json,md}\"",
+    "clean": "pnpm -r run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "eslint": "^8.45.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
+  }
+}
