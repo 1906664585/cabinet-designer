@@ -1,0 +1,31 @@
+{
+  "hardware": [
+    {
+      "id": "blum-hinge",
+      "name": "百隆铰链 (标准)",
+      "type": "hinge",
+      "category": "door",
+      "quantity": 2,
+      "unitPrice": 8.5,
+      "supplier": "Blum",
+      "specifications": {
+        "model": "CLIP top",
+        "angle": 110,
+        "load": "up to 50kg"
+      }
+    },
+    {
+      "id": "fgv-rail",
+      "name": "FGV 导轨 (标准)",
+      "type": "drawer-rail",
+      "category": "drawer",
+      "quantity": 1,
+      "unitPrice": 15,
+      "supplier": "Hettich",
+      "specifications": {
+        "type": "ball bearing",
+        "load": "up to 50kg"
+      }
+    }
+  ]
+}
