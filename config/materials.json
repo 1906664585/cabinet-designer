@@ -1,0 +1,30 @@
+{
+  "materials": [
+    {
+      "id": "multi-layer-plywood-18mm",
+      "name": "多层实木板 18mm",
+      "type": "plywood",
+      "thickness": 18,
+      "colors": ["白色", "黑色", "原木色", "胡桃色"],
+      "unitPrice": 120,
+      "properties": {
+        "fireResistance": true,
+        "waterResistant": true,
+        "environment": "E1"
+      }
+    },
+    {
+      "id": "particle-board-9mm",
+      "name": "颗粒板 9mm",
+      "type": "particle-board",
+      "thickness": 9,
+      "colors": ["白色", "黑色", "浅灰"],
+      "unitPrice": 45,
+      "properties": {
+        "fireResistance": false,
+        "waterResistant": false,
+        "environment": "E2"
+      }
+    }
+  ]
+}
